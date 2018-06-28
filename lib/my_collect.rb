@@ -6,6 +6,6 @@ def my_collect(collection)
   while i < 0
   stash << yield(collection[i])
 end
-stash 
+return stash 
 end 
 
